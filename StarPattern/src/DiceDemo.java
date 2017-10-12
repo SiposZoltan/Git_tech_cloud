@@ -3,7 +3,7 @@ public class DiceDemo {
 
         final int DIE1_SIDES = 6;
         final int DIE2_SIDES = 12;
-        final int MAX_ROLLS = 5;
+        final int MAX_ROLLS = 7;
 
         Die die1 = new Die(DIE1_SIDES);
         Die die2 = new Die(DIE2_SIDES);
