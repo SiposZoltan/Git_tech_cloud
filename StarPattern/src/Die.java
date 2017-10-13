@@ -21,9 +21,7 @@ public class Die {  //Clasa Die unde simulam un zar.
         value = rand.nextInt(sides) + 1; //Se populeaza "value" cu rand nr laturi (+ 1 deoarece incepe de la 0)
     }
 
-    public int getSides() {
-        return sides;
-    } //getter de laturi .
+    public int getSides() { return sides; } //getter de laturi.
 
     public int getValue() {
         return value;
